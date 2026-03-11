@@ -1,0 +1,16 @@
+{
+  "servers": [
+    {
+      "id": "my-rust",
+      "name": "RCON 테스트 서버",
+      "type": "rust",
+      "host": "127.0.0.1",
+      "port": 28015,
+      "rcon": {
+        "enabled": true,
+        "port": 27017,
+        "passwordEnv": "SERVER_RCON_PASSWORD"
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "steam-game-server": {
+      "command": "npx",
+      "args": ["steam-game-server-mcp@latest"],
+      "env": {
+        "STEAM_API_KEY": "your_steam_api_key",
+        "STEAM_ID": "your_steam_id_optional",
+        "STEAM_MCP_SERVERS_PATH": "C:/path/to/your/servers.json",
+        "STEAM_MCP_ADMIN_TOKEN": "your_admin_token"
+      }
+    }
+  }
+}

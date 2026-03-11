@@ -1,0 +1,45 @@
+{
+  "name": "steam-game-server-mcp",
+  "version": "1.0.1",
+  "description": "Steam & Game Server MCP - Steam 프로필, 게임, 서버 조회 도구",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "steam-game-server-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "rcon:test": "tsx test/rcon/manual-test.ts",
+    "rcon:server": "tsx test/rcon/rcon-test-server.ts"
+  },
+  "keywords": [
+    "mcp",
+    "steam",
+    "game-server"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "dotenv": "^16.6.1",
+    "gamedig": "^5.3.2",
+    "rcon-srcds": "^2.1.0",
+    "steam-server-query": "^1.1.3",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0",
+    "vitest": "^2.1.9"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "dist"
+  ]
+}

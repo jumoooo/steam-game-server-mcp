@@ -1,0 +1,30 @@
+{
+  "servers": [
+    {
+      "id": "rust-eu-1",
+      "name": "Rust EU #1",
+      "type": "rust",
+      "host": "1.2.3.4",
+      "port": 28015,
+      "query": { "enabled": true },
+      "rcon": {
+        "enabled": true,
+        "port": 28016,
+        "passwordEnv": "SERVER_RCON_PASSWORD"
+      }
+    },
+    {
+      "id": "cs2-eu-1",
+      "name": "CS2 EU #1",
+      "type": "counterstrike2",
+      "host": "1.2.3.5",
+      "port": 27015,
+      "query": { "enabled": true },
+      "rcon": {
+        "enabled": true,
+        "port": 27015,
+        "passwordEnv": "CS2_RCON_PASSWORD"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+# 의존성
+node_modules/
+
+# 빌드
+dist/
+
+# 환경 변수 (비밀키 포함)
+.env
+.env.rcon-test
+
+# 사용자 설정 (로컬 servers.json)
+servers.json
+
+# 로그
+*.log
+npm-debug.log*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.cursor/
+
+# OS
+.DS_Store
+Thumbs.db
