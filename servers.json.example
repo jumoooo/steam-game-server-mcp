@@ -1,0 +1,23 @@
+{
+  "servers": [
+    {
+      "id": "my-rust",
+      "name": "내 서버",
+      "type": "rust",
+      "host": "서버IP",
+      "port": 28015,
+      "rcon": {
+        "enabled": true,
+        "port": 28016,
+        "passwordEnv": "SERVER_RCON_PASSWORD"
+      }
+    },
+    {
+      "id": "mc-test-1",
+      "name": "Hypixel",
+      "type": "minecraft",
+      "host": "mc.hypixel.net",
+      "port": 25555
+    }
+  ]
+}
