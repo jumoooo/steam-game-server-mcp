@@ -151,7 +151,7 @@ npx steam-game-server-mcp@latest --help
 npm test
 ```
 
-- config/servers, server-tools, inventory-tools, admin-tools, discovery-tools, log-tools, rcon/client — 총 56개
+- config/servers, server-tools, inventory-tools, admin-tools, discovery-tools, log-tools, steam-tools, rcon/client — 총 76개
 
 ### 수동 테스트
 
